@@ -1,0 +1,10 @@
+D:\NET\Csharp\Wypozyczalnia\Model\bin\Debug\Model.dll.config
+D:\NET\Csharp\Wypozyczalnia\Model\bin\Debug\Model.dll
+D:\NET\Csharp\Wypozyczalnia\Model\bin\Debug\Model.pdb
+D:\NET\Csharp\Wypozyczalnia\Model\bin\Debug\EntityFramework.dll
+D:\NET\Csharp\Wypozyczalnia\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\NET\Csharp\Wypozyczalnia\Model\bin\Debug\EntityFramework.xml
+D:\NET\Csharp\Wypozyczalnia\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\NET\Csharp\Wypozyczalnia\Model\obj\Debug\Model.dll
+D:\NET\Csharp\Wypozyczalnia\Model\obj\Debug\Model.pdb
+D:\NET\Csharp\Wypozyczalnia\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

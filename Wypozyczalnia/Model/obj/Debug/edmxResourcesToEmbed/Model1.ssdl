@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WypozyczalniaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="books">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Author" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ISBN" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PublicationDate" Type="int" Nullable="false" />
+    <Property Name="PricePerDay" Type="decimal" Precision="8" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="customers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Code" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="orders">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClientID" Type="int" Nullable="false" />
+    <Property Name="BookID" Type="int" Nullable="false" />
+    <Property Name="Date of rental" Type="smalldatetime" Nullable="false" />
+    <Property Name="Date of return" Type="smalldatetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_orders_books">
+    <End Role="books" Type="Self.books" Multiplicity="1" />
+    <End Role="orders" Type="Self.orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="books">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="orders">
+        <PropertyRef Name="BookID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_orders_customers">
+    <End Role="customers" Type="Self.customers" Multiplicity="1" />
+    <End Role="orders" Type="Self.orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="orders">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WypozyczalniaModelStoreContainer">
+    <EntitySet Name="books" EntityType="Self.books" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="customers" EntityType="Self.customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="orders" EntityType="Self.orders" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_orders_books" Association="Self.FK_orders_books">
+      <End Role="books" EntitySet="books" />
+      <End Role="orders" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_orders_customers" Association="Self.FK_orders_customers">
+      <End Role="customers" EntitySet="customers" />
+      <End Role="orders" EntitySet="orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

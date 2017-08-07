@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WypozyczalniaModelStoreContainer" CdmEntityContainer="WypozyczalniaEntities">
+    <EntitySetMapping Name="books">
+      <EntityTypeMapping TypeName="WypozyczalniaModel.book">
+        <MappingFragment StoreEntitySet="books">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="PublicationDate" ColumnName="PublicationDate" />
+          <ScalarProperty Name="PricePerDay" ColumnName="PricePerDay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="WypozyczalniaModel.customer">
+        <MappingFragment StoreEntitySet="customers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="WypozyczalniaModel.order">
+        <MappingFragment StoreEntitySet="orders">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="BookID" ColumnName="BookID" />
+          <ScalarProperty Name="Date_of_rental" ColumnName="Date of rental" />
+          <ScalarProperty Name="Date_of_return" ColumnName="Date of return" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

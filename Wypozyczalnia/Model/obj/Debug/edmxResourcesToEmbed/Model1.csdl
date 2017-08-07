@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WypozyczalniaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="book">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Author" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ISBN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PublicationDate" Type="Int32" Nullable="false" />
+    <Property Name="PricePerDay" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <NavigationProperty Name="orders" Relationship="Self.FK_orders_books" FromRole="books" ToRole="orders" />
+  </EntityType>
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Code" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="orders" Relationship="Self.FK_orders_customers" FromRole="customers" ToRole="orders" />
+  </EntityType>
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="BookID" Type="Int32" Nullable="false" />
+    <Property Name="Date_of_rental" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Date_of_return" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="book" Relationship="Self.FK_orders_books" FromRole="orders" ToRole="books" />
+    <NavigationProperty Name="customer" Relationship="Self.FK_orders_customers" FromRole="orders" ToRole="customers" />
+  </EntityType>
+  <Association Name="FK_orders_books">
+    <End Role="books" Type="Self.book" Multiplicity="1" />
+    <End Role="orders" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="books">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="orders">
+        <PropertyRef Name="BookID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_orders_customers">
+    <End Role="customers" Type="Self.customer" Multiplicity="1" />
+    <End Role="orders" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="orders">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WypozyczalniaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="books" EntityType="Self.book" />
+    <EntitySet Name="customers" EntityType="Self.customer" />
+    <EntitySet Name="orders" EntityType="Self.order" />
+    <AssociationSet Name="FK_orders_books" Association="Self.FK_orders_books">
+      <End Role="books" EntitySet="books" />
+      <End Role="orders" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_orders_customers" Association="Self.FK_orders_customers">
+      <End Role="customers" EntitySet="customers" />
+      <End Role="orders" EntitySet="orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

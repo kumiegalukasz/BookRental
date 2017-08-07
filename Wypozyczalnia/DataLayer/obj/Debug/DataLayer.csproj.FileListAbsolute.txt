@@ -1,0 +1,11 @@
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\DataLayer.dll
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\DataLayer.pdb
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\EntityFramework.dll
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\Model.dll
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\Model.pdb
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\EntityFramework.xml
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\NET\Csharp\Wypozyczalnia\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+D:\NET\Csharp\Wypozyczalnia\DataLayer\obj\Debug\DataLayer.dll
+D:\NET\Csharp\Wypozyczalnia\DataLayer\obj\Debug\DataLayer.pdb

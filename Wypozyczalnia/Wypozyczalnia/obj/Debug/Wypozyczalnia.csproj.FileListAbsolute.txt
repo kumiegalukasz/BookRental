@@ -1,0 +1,130 @@
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe.config
+D:\NET\Csharp\xxx\Wypozyczalnia\obj\Debug\Wypozyczalnia.exe
+D:\NET\Csharp\xxx\Wypozyczalnia\obj\Debug\Wypozyczalnia.pdb
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\Wypozyczalnia.pdb
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\BusinessLayer.dll
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\DataLayer.dll
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\EntityFramework.dll
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\EntityFramework.SqlServer.dll
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\MetroFramework.dll
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\MetroFramework.Fonts.dll
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\Model.dll
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\BusinessLayer.pdb
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\DataLayer.pdb
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\Model.pdb
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\EntityFramework.xml
+D:\NET\Csharp\xxx\Wypozyczalnia\bin\Debug\EntityFramework.SqlServer.xml
+D:\NET\Csharp\xxx\Wypozyczalnia\obj\Debug\Wypozyczalnia.csprojResolveAssemblyReference.cache
+D:\NET\Csharp\xxx\Wypozyczalnia\obj\Debug\Wypozyczalnia.MainForm.resources
+D:\NET\Csharp\xxx\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientForm.resources
+D:\NET\Csharp\xxx\Wypozyczalnia\obj\Debug\Wypozyczalnia.PanelForm.resources
+D:\NET\Csharp\xxx\Wypozyczalnia\obj\Debug\Wypozyczalnia.Properties.Resources.resources
+D:\NET\Csharp\xxx\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.GenerateResource.Cache
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe.config
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\obj\Debug\Wypozyczalnia.exe
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\obj\Debug\Wypozyczalnia.pdb
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\Wypozyczalnia.pdb
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\BusinessLayer.dll
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\DataLayer.dll
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\EntityFramework.dll
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\EntityFramework.SqlServer.dll
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\MetroFramework.dll
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\MetroFramework.Fonts.dll
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\Model.dll
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\BusinessLayer.pdb
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\DataLayer.pdb
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\Model.pdb
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\EntityFramework.xml
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\bin\Debug\EntityFramework.SqlServer.xml
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\obj\Debug\Wypozyczalnia.csprojResolveAssemblyReference.cache
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\obj\Debug\Wypozyczalnia.MainForm.resources
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientForm.resources
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\obj\Debug\Wypozyczalnia.PanelForm.resources
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\obj\Debug\Wypozyczalnia.Properties.Resources.resources
+D:\NET\Csharp\xxx1 — kopia\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.GenerateResource.Cache
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe.config
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\obj\Debug\Wypozyczalnia.exe
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\obj\Debug\Wypozyczalnia.pdb
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\Wypozyczalnia.pdb
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\BusinessLayer.dll
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\DataLayer.dll
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\EntityFramework.dll
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\MetroFramework.dll
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\Model.dll
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\BusinessLayer.pdb
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\DataLayer.pdb
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\Model.pdb
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\EntityFramework.xml
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\obj\Debug\Wypozyczalnia.csprojResolveAssemblyReference.cache
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\obj\Debug\Wypozyczalnia.MainForm.resources
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientForm.resources
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\obj\Debug\Wypozyczalnia.PanelForm.resources
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\obj\Debug\Wypozyczalnia.Properties.Resources.resources
+C:\Users\Łukasz\Desktop\Aktualne KOPIA!\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.GenerateResource.Cache
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe.config
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.exe
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.pdb
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\Wypozyczalnia.pdb
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\BusinessLayer.dll
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\DataLayer.dll
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\EntityFramework.dll
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\MetroFramework.dll
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\Model.dll
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\BusinessLayer.pdb
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\DataLayer.pdb
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\Model.pdb
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\EntityFramework.xml
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.csprojResolveAssemblyReference.cache
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.BookManagement.resources
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.Forms.BookSave.resources
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.MainForm.resources
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientForm.resources
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.PanelForm.resources
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.Forms.RentalManagement.resources
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.Forms.RentSave.resources
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.Forms.ReturnManagement.resources
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.Forms.ReturnSave.resources
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.Properties.Resources.resources
+C:\Users\Łukasz\Desktop\AKTUALNE KOPIA!!!\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.GenerateResource.Cache
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe.config
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Wypozyczalnia.pdb
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\BusinessLayer.dll
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\EntityFramework.dll
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\EntityFramework.SqlServer.dll
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Interfaces.dll
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\log4net.dll
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\MetroFramework.dll
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\MetroFramework.Fonts.dll
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Model.dll
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\BusinessLayer.pdb
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Interfaces.pdb
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Model.pdb
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\EntityFramework.xml
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\EntityFramework.SqlServer.xml
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\log4net.xml
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.csprojResolveAssemblyReference.cache
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.BookManagement.resources
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.Forms.BookSave.resources
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.MainForm.resources
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientForm.resources
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.PanelForm.resources
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.Forms.RentalManagement.resources
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.Forms.RentSave.resources
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.Forms.ReturnManagement.resources
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.Forms.ReturnSave.resources
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.Properties.Resources.resources
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.GenerateResource.Cache
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.exe
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.pdb
+D:\NET\Csharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Library.exe.config

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A4AA0278-A316-484C-BBF8-716448A5E8A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Library</RootNamespace>
+    <AssemblyName>Library</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\BookManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BookManagement.Designer.cs">
+      <DependentUpon>BookManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BookSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BookSave.Designer.cs">
+      <DependentUpon>BookSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ContactManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ContactManagement.Designer.cs">
+      <DependentUpon>ContactManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ClientSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientSave.Designer.cs">
+      <DependentUpon>ClientSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RentalManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RentalManagement.Designer.cs">
+      <DependentUpon>RentalManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RentSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RentSave.Designer.cs">
+      <DependentUpon>RentSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReturnManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReturnManagement.Designer.cs">
+      <DependentUpon>ReturnManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReturnSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReturnSave.Designer.cs">
+      <DependentUpon>ReturnSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\BookManagement.resx">
+      <DependentUpon>BookManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookSave.resx">
+      <DependentUpon>BookSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ContactManagement.resx">
+      <DependentUpon>ContactManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ClientSave.resx">
+      <DependentUpon>ClientSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RentalManagement.resx">
+      <DependentUpon>RentalManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RentSave.resx">
+      <DependentUpon>RentSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReturnManagement.resx">
+      <DependentUpon>ReturnManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReturnSave.resx">
+      <DependentUpon>ReturnSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\BusinessLayer.BookServices.datasource" />
+    <None Include="Properties\DataSources\BusinessLayer.CustomerServices.datasource" />
+    <None Include="Properties\DataSources\BusinessLayer.OrderServices.datasource" />
+    <None Include="Properties\DataSources\Interfaces.DomainModel.Book.datasource" />
+    <None Include="Properties\DataSources\Interfaces.DomainModel.Customer.datasource" />
+    <None Include="Properties\DataSources\Interfaces.DomainModel.Order.datasource" />
+    <None Include="Properties\DataSources\Interfaces.IBookRepository.datasource" />
+    <None Include="Properties\DataSources\Interfaces.ICustomerRepository.datasource" />
+    <None Include="Properties\DataSources\Interfaces.IOrderRepository.datasource" />
+    <None Include="Properties\DataSources\Interfaces.Model.Books.datasource" />
+    <None Include="Properties\DataSources\Interfaces.Model.Customers.datasource" />
+    <None Include="Properties\DataSources\Interfaces.Model.Orders.datasource" />
+    <None Include="Properties\DataSources\Logic.BookRepository.datasource" />
+    <None Include="Properties\DataSources\Logic.CustomerRepository.datasource" />
+    <None Include="Properties\DataSources\Logic.OrderRepository.datasource" />
+    <None Include="Properties\DataSources\Model.book.datasource" />
+    <None Include="Properties\DataSources\Model.customer.datasource" />
+    <None Include="Properties\DataSources\Model.RentalContext.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MetroFramework.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{b03a9c64-1bf5-42f9-a731-e4c27c205f02}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataLayer\Interfaces.csproj">
+      <Project>{22d280bb-4b7b-4631-a017-baba8d7a1fc3}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Logic.csproj">
+      <Project>{cf2929f0-ae69-4277-a2da-4da74a9241d6}</Project>
+      <Name>Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

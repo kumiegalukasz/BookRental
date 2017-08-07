@@ -1,0 +1,17 @@
+D:\NET\Csharp\xxx\DataLayer\bin\Debug\DataLayer.dll
+D:\NET\Csharp\xxx\DataLayer\bin\Debug\DataLayer.pdb
+D:\NET\Csharp\xxx\DataLayer\bin\Debug\EntityFramework.dll
+D:\NET\Csharp\xxx\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\NET\Csharp\xxx\DataLayer\bin\Debug\EntityFramework.xml
+D:\NET\Csharp\xxx\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\NET\Csharp\xxx\DataLayer\obj\Debug\DataLayer.dll
+D:\NET\Csharp\xxx\DataLayer\obj\Debug\DataLayer.pdb
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\Interfaces.dll
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\Interfaces.pdb
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\EntityFramework.dll
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\EntityFramework.xml
+D:\NET\Csharp\Wypozyczalnia\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\NET\Csharp\Wypozyczalnia\DataLayer\obj\Debug\Interfaces.dll
+D:\NET\Csharp\Wypozyczalnia\DataLayer\obj\Debug\Interfaces.pdb
+D:\NET\Csharp\Wypozyczalnia\DataLayer\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
